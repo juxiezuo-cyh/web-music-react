@@ -8,9 +8,8 @@ import request from '@/services/request';
 
 export default memo(function Discover(props) {
   const { route } = props;
-
   // const [banners]
-
+  
   useEffect(() => {
     request({
       url: '/banner'

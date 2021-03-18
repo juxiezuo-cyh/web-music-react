@@ -20,8 +20,6 @@ const App = () => {
         <AppFooter />
       </HashRouter>
     </Provider>
-
-    
   );
 }
 
